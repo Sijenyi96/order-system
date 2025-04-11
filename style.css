@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  .order {
+    box-sizing: border-box;
+    border: 5px solid white;
+    background-color: #ccc;
+    border-radius: 5px;
+    width: 1000px;
+  }
+
+  .body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 8px;
+  }
+  
+  input, select {
+    display: block;
+    margin: 5px 0 10px;
+    padding: 8px;
+    width: 250px;
+  }
+  #reports {
+    margin: 20px;
+    background-color: white;
+  }
+
+  #form-customer {
+    margin-left: 20px;
+    background-color: white;
+  }
+  
+  #form-order {
+    margin-left: 20px;
+    background-color: white;
+  }
+
+  #form-product {
+    background-color: white;
+  }
+  
+  button {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  button:hover {
+    background-color: rgb(244, 242, 246);
+    color: blueviolet;
+  }
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+  }

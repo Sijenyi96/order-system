@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order Management App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="order">
+  <h1>Order System</h1>
+
+  <!-- Wizard Form: Add Customer -->
+   <div class="body">
+  <section id="form-customer">
+    <h2>Add Customer</h2>
+    <input type="text" id="firstName" placeholder="First Name">
+    <input type="text" id="lastName" placeholder="Last Name">
+    <input type="email" id="email" placeholder="Email">
+    <button onclick="addCustomer()">Add Customer</button>
+  </section>
+
+  <!-- Wizard Form: Add Product -->
+  <section id="form-product">
+    <h2>Add Product</h2>
+    <input type="text" id="productName" placeholder="Product Name">
+    <input type="number" id="price" placeholder="Price">
+    <button onclick="addProduct()">Add Product</button>
+  </section>
+
+  <!-- Wizard Form: Create Order -->
+  <section id="form-order">
+    <h2>Create Order</h2>
+    <select id="selectCustomer"></select>
+    <select id="selectProduct"></select>
+    <input type="number" id="orderQuantity" placeholder="Quantity">
+    <button onclick="createOrder()">Place Order</button>
+  </section>
+  </div>
+  <!-- Reports -->
+  <section id="reports">
+    <h2>Reports</h2>
+    <button onclick="generateReport()">Generate Report</button>
+    <div id="reportOutput"></div>
+  </section>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
